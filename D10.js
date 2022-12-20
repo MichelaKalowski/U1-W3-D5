@@ -469,6 +469,7 @@ const selectContainer = function () {
   const container = document.getElementById("container")
 }
 selectContainer();
+
 /* ESERCIZIO 21
   Scrivi una funzione per selezionare ogni tag <td> all'interno della pagina.
 */
