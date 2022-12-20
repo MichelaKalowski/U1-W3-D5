@@ -466,7 +466,7 @@ console.log("esercizio19:" + JSON.stringify(removeIndex(3, movies)));
   Scrivi una funzione per selezionare l'elemento dotato di id "container" all'interno della pagina.
 */
 const selectContainer = function () {
-  const container = document.getElementById("id")
+  const container = document.getElementById("container")
 }
 selectContainer();
 /* ESERCIZIO 21
@@ -508,10 +508,8 @@ paintItRed();
 const addListId = function () {
 
   const ListId = document.getElementById("myList")
-
   const newList = document.createElement("li")
   newList.innerText = "nuovoelemento"
-
   ListId.appendChild("newList")
 };
 addListId();
