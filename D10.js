@@ -491,7 +491,7 @@ selectorTd();
   Scrivi una funzione per aggiungere un background di colore rosso a ogni link all'interno della pagina.
 */
 const paintItRed = function () {
-  const allLink = document.querySelectorAll("href")
+  const allLink = document.querySelectorAll("a")
   console.log(allLink);
   allLink.forEach((red) => {
     red.style.backgroundColor = "red"
