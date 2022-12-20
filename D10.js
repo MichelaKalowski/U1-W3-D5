@@ -512,7 +512,7 @@ const addListId = function () {
   const newList = document.createElement("li")
   newList.innerText = "nuovoelemento"
 
-  list.appendChild("newList")
+  ListId.appendChild("newList")
 };
 addListId();
 
