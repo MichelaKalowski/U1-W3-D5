@@ -510,9 +510,9 @@ const addListId = function () {
   const ListId = document.getElementById("myList")
 
   const newList = document.createElement("li")
-  newLi.innerText = "nuovoelemento"
+  newList.innerText = "nuovoelemento"
 
-  list.appendChild("newLi")
+  list.appendChild("newList")
 };
 addListId();
 
