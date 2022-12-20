@@ -519,7 +519,8 @@ addListId();
   Scrivi una funzione per svuotare la lista non ordinata con id "myList".
 */
 const svuotaLista =function(){
-  const ListaId =document.getElementById("myList").remove();
+  const ListaId =document.getElementById("myList")
+  ListaId.remove();
 };
 svuotaLista();
 
