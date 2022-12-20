@@ -494,6 +494,7 @@ const paintItRed = function () {
   const allLink = document.querySelectorAll("a")
   console.log(allLink);
   allLink.forEach((red) => {
+
     red.style.backgroundColor = "red"
   })
 
@@ -506,7 +507,7 @@ paintItRed();
 */
 const addListId = function () {
 
-  const ListId = document.querySelector("ul", "myList")
+  const ListId = document.getElementById("myList")
 
   const newList = document.createElement("li")
   newLi.innerText = "nuovoelemento"
